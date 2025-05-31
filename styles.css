@@ -17,13 +17,14 @@ body {
 }
 .sidebar {
     height: 10px;
-    background-color: lightblue;
+    background-color: lightyellow;
 }
 .profile-pic {
     width: 120px;
     height: 120px;
     background-color: #ccc;
     border-radius: 50%;
+    border-colour: lightblue;
     margin: 20px auto;
 }
 .profile-info, .social-media, .projects, .contact-form {
