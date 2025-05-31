@@ -1,0 +1,51 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f4f8;
+    margin: 0;
+    padding: 0;
+}
+.profile-container {
+    width: 90%;
+    max-width: 600px;
+    margin: 50px auto;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 20px;
+}
+.sidebar {
+    height: 10px;
+    background-color: lightblue;
+}
+.profile-pic {
+    width: 120px;
+    height: 120px;
+    background-color: #ccc;
+    border-radius: 50%;
+    margin: 20px auto;
+}
+.profile-info, .social-media, .projects, .contact-form {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.icons img {
+    width: 32px;
+    margin: 0 5px;
+}
+.mockups iframe {
+    width: 100px;
+    height: 200px;
+    border: 1px solid #ccc;
+    margin: 5px;
+}
+.contact-form input {
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+}
+.contact-form button {
+    padding: 10px 20px;
+}
