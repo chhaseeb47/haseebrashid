@@ -9,10 +9,10 @@ body {
     width: 90%;
     max-width: 600px;
     margin: 50px auto;
-    background: white;
+    background: pink;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     border-radius: 10px;
-    overflow: hidden;
+    overflow: 5px;
     padding: 20px;
 }
 .sidebar {
