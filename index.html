@@ -1,53 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Haseeb Rashid</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css">
+
   <style>
     body {
       margin: 0;
       font-family: Arial, sans-serif;
-      background: #f2f6fc;
-      color: #333;
     }
 
     .about {
-      text-align: center;
       padding: 40px 20px;
+    }
+
+    .center-img {
+      text-align: center;
+      margin-bottom: 20px;
     }
 
     .center-img img {
       width: 180px;
       height: 180px;
       border-radius: 50%;
-      border: 5px solid #87ceeb; /* Light Sky Blue border */
-      box-shadow: 0 0 20px rgba(135, 206, 235, 0.6); /* Sky Blue Glow */
+      border: 5px solid #87ceeb; /* Sky blue border */
+      box-shadow: 0 0 15px rgba(135, 206, 235, 0.5); /* Light sky blue shadow */
       object-fit: cover;
-      margin-bottom: 20px;
     }
 
     .center-text {
-      max-width: 600px;
-      margin: auto;
-    }
-
-    .center-text h2 {
-      font-size: 28px;
-      margin-bottom: 20px;
-    }
-
-    .center-text span {
-      color: #007BFF;
-    }
-
-    .exp-area {
       text-align: center;
     }
 
+    .exp-area {
+      margin-top: 20px;
+    }
+
     .exp {
-      margin: 8px 0;
+      margin: 5px 0;
     }
 
     .social {
@@ -57,55 +49,58 @@
 
     .social-icon {
       margin: 0 10px;
-      font-size: 28px;
-      color: #333;
+      font-size: 24px;
+      color: #444;
       text-decoration: none;
-      transition: color 0.3s;
-    }
-
-    .social-icon:hover {
-      color: #007BFF;
     }
 
     .contact {
       padding: 40px 20px;
-      background: #fff;
-      text-align: center;
     }
 
     .contact-form {
-      max-width: 500px;
-      margin: auto;
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
     }
 
-    input, textarea {
+    .contact-form form {
       width: 100%;
-      padding: 12px;
-      margin-bottom: 15px;
-      border: 1px solid #ccc;
-      border-radius: 8px;
+      max-width: 400px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+      margin-bottom: 10px;
+      padding: 10px;
+      font-size: 16px;
     }
 
     .send-btn {
-      background-color: #007BFF;
-      color: white;
+      background-color: #87ceeb;
       border: none;
+      color: white;
       cursor: pointer;
-      font-size: 16px;
-      padding: 12px 20px;
-      border-radius: 8px;
+      transition: 0.3s;
+    }
+
+    .send-btn:hover {
+      background-color: #5ab4d3;
     }
 
     .footer {
-      background: #f1f1f1;
-      padding: 20px;
       text-align: center;
+      padding: 20px;
+      background-color: #f2f2f2;
+      position: relative;
     }
 
     .scroll-top {
-      display: inline-block;
-      margin-top: 10px;
-      color: #007BFF;
+      position: absolute;
+      right: 20px;
+      top: 20px;
       font-size: 24px;
       text-decoration: none;
     }
@@ -113,10 +108,9 @@
 </head>
 <body>
 
-  <!-- About Section -->
   <section class="about" id="about">
     <div class="center-img">
-      <img src="https://github.com/mouricedevs.png?length=50width=50" alt="Haseeb Rashid">
+      <img src="https://github.com/mouricedevs.png?length=50width=50" alt="Gifted-Md">
     </div>
 
     <div class="center-text">
@@ -131,7 +125,6 @@
     </div>
   </section>
 
-  <!-- Social Icons -->
   <section class="social">
     <a href="https://www.facebook.com/profile.php?id=100092902700629" target="_blank" class="social-icon facebook">
       <i class="ri-facebook-fill"></i>
@@ -147,27 +140,25 @@
     </a>
   </section>
 
-  <!-- Contact Section -->
   <section class="contact" id="contact">
     <div class="center-text">
       <h2>Contact <span>me</span></h2>
     </div>
     <div class="contact-form">
       <form action="">
-        <input type="text" placeholder="Your Name" required />
-        <input type="email" placeholder="Email Address..." required />
-        <textarea cols="30" rows="10" placeholder="Your Message Here." required></textarea>
-        <input type="submit" value="Submit" class="send-btn" />
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Email Address..." required>
+        <textarea name="" id="" cols="30" rows="10" placeholder="Your Message Here." required></textarea>
+        <input type="submit" value="Submit" class="send-btn">
       </form>
     </div>
   </section>
 
-  <!-- Footer -->
   <footer class="footer">
     <div class="copyright">
-      <p><a href="mailto:haseebrashid707@gmail.com">©2024 Haseeb Rashid</a>, All Rights Reserved.</p>
+      <p><a href="mailto:haseebrashid707@gmail.com" target="_blank">©2024 GIFTED TECH</a>, All Rights Reserved.</p>
     </div>
-    <a href="#about" class="scroll-top">
+    <a href="#home" class="scroll-top">
       <i class="ri-arrow-up-s-fill"></i>
     </a>
   </footer>
