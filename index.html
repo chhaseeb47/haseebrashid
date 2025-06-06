@@ -1,37 +1,131 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Haseeb Rashid</title>
-  <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+    }
+
+    .center-img {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 30px;
+    }
+
+    .center-img img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      box-shadow: 0 0 15px rgba(0, 123, 255, 0.3);
+      border: 4px solid white;
+    }
+
+    .center-text {
+      text-align: center;
+      margin: 20px;
+    }
+
+    .center-text h2 {
+      font-size: 24px;
+    }
+
+    .center-text span {
+      color: #007bff;
+    }
+
+    .exp-area {
+      margin-top: 10px;
+      line-height: 1.6;
+    }
+
+    .exp span {
+      font-weight: bold;
+    }
+
+    .social {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      margin: 20px 0;
+    }
+
+    .social-icon {
+      text-decoration: none;
+      font-size: 24px;
+      color: #007bff;
+    }
+
+    .contact {
+      padding: 30px 20px;
+      background-color: #fff;
+    }
+
+    .contact-form {
+      max-width: 500px;
+      margin: auto;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    .send-btn {
+      background-color: #007bff;
+      color: white;
+      border: none;
+      margin-top: 10px;
+      cursor: pointer;
+    }
+
+    .footer {
+      background-color: #222;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+
+    .scroll-top {
+      color: white;
+      font-size: 20px;
+      display: inline-block;
+      margin-top: 10px;
+    }
+  </style>
 </head>
+
 <body>
 
- 
-
   <section class="about" id="about">
-<div class="center-img">
-   
+    <div class="center-img">
       <img src="https://i.ibb.co/wFNwyBJk/60479fc4e17784c9.jpg?length=50width=50" alt="Gifted-Md">
     </div>
-  
-<div class="center-text">
-      <h2>I am a Self Learned <span> Wordpress</span><br>Developer</h2>
+
+    <div class="center-text">
+      <h2>I am a Self Learned <span>Wordpress</span><br>Developer</h2>
       <div class="exp-area">
-        <p class="exp">Experience <span>6 months</span></p>
-        <p class="exp">Specifications: <span>Tech Youtuber , Web Designer,Wordpress  Web Developer, </span></p>
-        <p class="exp">Location: <span> DGK , Kot Chutta </span> </span></p>
+        <p class="exp">Experience: <span>6 months</span></p>
+        <p class="exp">Specifications: <span>Tech Youtuber, Web Designer, Wordpress Developer</span></p>
+        <p class="exp">Location: <span>DGK, Kot Chutta</span></p>
         <p class="exp">Email: <span>haseebrashid707@gmail.com</span></p>
         <p class="exp">Phone: <span>+93462054847</span></p>
- </div>
-      
+      </div>
+    </div>
   </section>
 
-
-<section class="social">
+  <section class="social">
     <a href="https://www.facebook.com/profile.php?id=100092902700629" target="_blank" class="social-icon facebook">
       <i class="ri-facebook-fill"></i>
     </a>
@@ -46,7 +140,6 @@
     </a>
   </section>
 
-
   <section class="contact" id="contact">
     <div class="center-text">
       <h2>Contact <span>me</span></h2>
@@ -55,7 +148,7 @@
       <form action="">
         <input type="text" placeholder="Your Name" required>
         <input type="email" placeholder="Email Address..." required>
-        <textarea name="" id="" cols="30" rows="10" placeholder="Your Message Here." required></textarea>
+        <textarea cols="30" rows="10" placeholder="Your Message Here." required></textarea>
         <input type="submit" value="Submit" class="send-btn">
       </form>
     </div>
@@ -63,22 +156,12 @@
 
   <footer class="footer">
     <div class="copyright">
-      <p><a href="haseebrashid707@gmail.com" target="_blank">©2024 GIFTED TECH</a>, All Rights Reserved.</p>
+      <p><a href="mailto:haseebrashid707@gmail.com" target="_blank" style="color: white;">©2024 GIFTED TECH</a>, All Rights Reserved.</p>
     </div>
-    <a href="#home" class="scroll-top">
+    <a href="#about" class="scroll-top">
       <i class="ri-arrow-up-s-fill"></i>
     </a>
   </footer>
 
-  <script src="script.js"></script>
-  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>
-    AOS.init({
-      offset: 300,
-      duration: 1400,
-    });
-  </script>
-
 </body>
-    </html>
-    
+</html>
