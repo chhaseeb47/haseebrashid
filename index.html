@@ -1,38 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Haseeb Rashid</title>
-  <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css" />
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f2f6fc;
+      color: #333;
+    }
+
+    .about {
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    .center-img img {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      border: 5px solid #87ceeb; /* Light Sky Blue border */
+      box-shadow: 0 0 20px rgba(135, 206, 235, 0.6); /* Sky Blue Glow */
+      object-fit: cover;
+      margin-bottom: 20px;
+    }
+
+    .center-text {
+      max-width: 600px;
+      margin: auto;
+    }
+
+    .center-text h2 {
+      font-size: 28px;
+      margin-bottom: 20px;
+    }
+
+    .center-text span {
+      color: #007BFF;
+    }
+
+    .exp-area {
+      text-align: center;
+    }
+
+    .exp {
+      margin: 8px 0;
+    }
+
+    .social {
+      text-align: center;
+      margin: 30px 0;
+    }
+
+    .social-icon {
+      margin: 0 10px;
+      font-size: 28px;
+      color: #333;
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+
+    .social-icon:hover {
+      color: #007BFF;
+    }
+
+    .contact {
+      padding: 40px 20px;
+      background: #fff;
+      text-align: center;
+    }
+
+    .contact-form {
+      max-width: 500px;
+      margin: auto;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+    }
+
+    .send-btn {
+      background-color: #007BFF;
+      color: white;
+      border: none;
+      cursor: pointer;
+      font-size: 16px;
+      padding: 12px 20px;
+      border-radius: 8px;
+    }
+
+    .footer {
+      background: #f1f1f1;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .scroll-top {
+      display: inline-block;
+      margin-top: 10px;
+      color: #007BFF;
+      font-size: 24px;
+      text-decoration: none;
+    }
+  </style>
 </head>
 <body>
 
- 
-
+  <!-- About Section -->
   <section class="about" id="about">
-    <div class="about-img">
-      <img src="https://i.ibb.co/wFNwyBJk/60479fc4e17784c9.jpg" alt="Haseeb Rashid">
+    <div class="center-img">
+      <img src="https://github.com/mouricedevs.png?length=50width=50" alt="Haseeb Rashid">
     </div>
-    <div class="about-text">
-      <h2>I am a Self Learned <span>Full-Stack</span><br>Developer</h2>
+
+    <div class="center-text">
+      <h2>I am a Self Learned <span>Wordpress</span><br>Developer</h2>
       <div class="exp-area">
-        <p class="exp">Experience <span>6 months</span></p>
-        <p class="exp">Specifications: <span>Tech Youtuber , Web Designer,Wordpress  Web Developer, </span></p>
-        <p class="exp">Location: <span> DGK , Kot Chutta </span> </span></p>
+        <p class="exp">Experience: <span>6 months</span></p>
+        <p class="exp">Specifications: <span>Tech Youtuber, Web Designer, Wordpress Web Developer</span></p>
+        <p class="exp">Location: <span>DGK, Kot Chutta</span></p>
         <p class="exp">Email: <span>haseebrashid707@gmail.com</span></p>
         <p class="exp">Phone: <span>+93462054847</span></p>
- </div>
-      
+      </div>
+    </div>
   </section>
 
-
-<section class="social">
+  <!-- Social Icons -->
+  <section class="social">
     <a href="https://www.facebook.com/profile.php?id=100092902700629" target="_blank" class="social-icon facebook">
       <i class="ri-facebook-fill"></i>
     </a>
-    <a href="https://www.instagram.com/@dark_hasi_47" target="_blank" class="social-icon instagram">
+    <a href="https://www.instagram.com/dark_hasi_47" target="_blank" class="social-icon instagram">
       <i class="ri-instagram-fill"></i>
     </a>
     <a href="https://wa.me/923462054847" target="_blank" class="social-icon whatsapp">
@@ -43,39 +147,30 @@
     </a>
   </section>
 
-
+  <!-- Contact Section -->
   <section class="contact" id="contact">
     <div class="center-text">
       <h2>Contact <span>me</span></h2>
     </div>
     <div class="contact-form">
       <form action="">
-        <input type="text" placeholder="Your Name" required>
-        <input type="email" placeholder="Email Address..." required>
-        <textarea name="" id="" cols="30" rows="10" placeholder="Your Message Here." required></textarea>
-        <input type="submit" value="Submit" class="send-btn">
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Email Address..." required />
+        <textarea cols="30" rows="10" placeholder="Your Message Here." required></textarea>
+        <input type="submit" value="Submit" class="send-btn" />
       </form>
     </div>
   </section>
 
+  <!-- Footer -->
   <footer class="footer">
     <div class="copyright">
-      <p><a href="haseebrashid707@gmail.com" target="_blank">©2024 GIFTED TECH</a>, All Rights Reserved.</p>
+      <p><a href="mailto:haseebrashid707@gmail.com">©2024 Haseeb Rashid</a>, All Rights Reserved.</p>
     </div>
-    <a href="#home" class="scroll-top">
+    <a href="#about" class="scroll-top">
       <i class="ri-arrow-up-s-fill"></i>
     </a>
   </footer>
 
-  <script src="script.js"></script>
-  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>
-    AOS.init({
-      offset: 300,
-      duration: 1400,
-    });
-  </script>
-
 </body>
-    </html>
-    
+</html>
