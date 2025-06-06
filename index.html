@@ -1,44 +1,83 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Haseeb Rashid Profile</title>
-    <link rel="stylesheet" href="styles.css">
-    <script defer src="script.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gifted Tech</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css">
 </head>
 <body>
-    <div class="profile-container">
-        <div class="sidebar"></div>
-        <div class="profile-pic"></div>
-        <div class="profile-info">
-            <h1>Haseeb Rashid</h1>
-            <p>Age: 25</p>
-            <p>Profession: Developer</p>
-            <p>Work as: Freelancer</p>
-        </div>
-        <div class="social-media">
-            <h2>Main Social Media Account</h2>
-            <div class="icons">
-                <img src="facebook.png" alt="Facebook">
-                <img src="twitter.png" alt="Twitter">
-                <img src="instagram.png" alt="Instagram">
-            </div>
-        </div>
-        <div class="projects">
-            <h2>My Projects</h2>
-            <div class="mockups">
-                <iframe src="https://hasi-sim-data.vercel.app/" class="mockup"></iframe>
-                <iframe src="https://example.com" class="mockup"></iframe>
-                <iframe src="https://example.com" class="mockup"></iframe>
-            </div>
-        </div>
-        <div class="contact-form">
-            <input type="text" id="name" placeholder="Your Name">
-            <input type="text" id="number" placeholder="Your Number">
-            <button onclick="sendWhatsApp()">Submit</button>
-        </div>
+
+  <section class="social">
+    <a href="https://www.facebook.com/profile.php?id=100092902700629" target="_blank" class="social-icon facebook">
+      <i class="ri-facebook-fill"></i>
+    </a>
+    <a href="https://www.instagram.com/giftedtechnexus" target="_blank" class="social-icon instagram">
+      <i class="ri-instagram-fill"></i>
+    </a>
+    <a href="https://wa.me/254762016957" target="_blank" class="social-icon whatsapp">
+      <i class="ri-whatsapp-fill"></i>
+    </a>
+    <a href="https://www.youtube.com/@giftedtechnexus" target="_blank" class="social-icon youtube">
+      <i class="ri-youtube-fill"></i>
+    </a>
+  </section>
+
+  <section class="main-btn">
+    <a href="https://gifted-deploy.vercel.app" class="btn">Bot Web</a>
+    <a href="https://github.com/mouricedevs/gifted-md" class="btn">Bot Repo</a>
+  </section>
+
+  <section class="about" id="about">
+    <div class="about-img">
+      <img src="https://github.com/mouricedevs.png?length=50width=50" alt="Gifted-Md">
     </div>
+    <div class="about-text">
+      <h2>I am a Self Learned <span>Full-Stack</span><br>Developer</h2>
+      <div class="exp-area">
+        <p class="exp">Experience <span>6 months</span></p>
+        <p class="exp">Specifications: <span>Developer, Web Designer, Website Developer, Graphics Designer, Software(App) Developer</span></p>
+        <p class="exp">Location: <span>Eldoret, Kenya</span></p>
+        <p class="exp">Email: <span>giftedmd@giftedtechnexus.co.ke</span></p>
+        <p class="exp">Phone: <span>+254728782591</span></p>
+      </div>
+      <a href="https://github.com/mouricedevs" class="btn">Bot Web</a>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="center-text">
+      <h2>Contact <span>me</span></h2>
+    </div>
+    <div class="contact-form">
+      <form action="">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Email Address..." required>
+        <textarea name="" id="" cols="30" rows="10" placeholder="Your Message Here." required></textarea>
+        <input type="submit" value="Submit" class="send-btn">
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="copyright">
+      <p><a href="https://web.giftedtechnexus.co.ke" target="_blank">©2024 GIFTED TECH</a>, All Rights Reserved.</p>
+    </div>
+    <a href="#home" class="scroll-top">
+      <i class="ri-arrow-up-s-fill"></i>
+    </a>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      offset: 300,
+      duration: 1400,
+    });
+  </script>
+
 </body>
-</html>
+    </html>
+    
