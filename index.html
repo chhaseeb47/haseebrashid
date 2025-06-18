@@ -6,7 +6,6 @@
   <title>Haseeb Rashid</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css">
   <script src="https://cdn.tailwindcss.com"></script>
-
   <style>
     body {
       margin: 0;
@@ -72,7 +71,7 @@
   <!-- About Section -->
   <section class="about" id="about">
     <div class="center-img">
-      <img src="https://i.ibb.co/wFNwyBJk/60479fc4e17784c9.jpg?length=50width=50" alt="Haseeb Rashid">
+      <img src="https://i.ibb.co/wFNwyBJk/60479fc4e17784c9.jpg" alt="Haseeb Rashid">
     </div>
 
     <div class="center-text">
@@ -89,27 +88,15 @@
 
   <!-- Social Links -->
   <section class="social">
-    <a href="https://wa.me/923462054847" target="_blank" class="social-icon whatsapp">
-      <i class="ri-whatsapp-fill"></i>
-    </a>
-    <a href="https://www.youtube.com/@mhmodsofc" target="_blank" class="social-icon youtube">
-      <i class="ri-youtube-fill"></i>
-    </a>
-    <a href="https://www.facebook.com/share/1Bo3XULTqi/" target="_blank" class="social-icon facebook">
-      <i class="ri-facebook-fill"></i>
-    </a>
-    <a href="https://www.instagram.com/dark_hasi_47" target="_blank" class="social-icon instagram">
-      <i class="ri-instagram-fill"></i>
-    </a>
-    <a href="t.me/MHMODSOFC" target="_blank" class="social-icon telegram">
-      <i class="ri-telegram-fill"></i>
-    </a>
-    <a href="https://www.tiktok.com/@x_hasi1" target="_blank" class="social-icon tiktok">
-      <i class="ri-tiktok-fill"></i>
-    </a>
+    <a href="https://wa.me/923462054847" target="_blank" class="social-icon whatsapp"><i class="ri-whatsapp-fill"></i></a>
+    <a href="https://www.youtube.com/@mhmodsofc" target="_blank" class="social-icon youtube"><i class="ri-youtube-fill"></i></a>
+    <a href="https://www.facebook.com/share/1Bo3XULTqi/" target="_blank" class="social-icon facebook"><i class="ri-facebook-fill"></i></a>
+    <a href="https://www.instagram.com/dark_hasi_47" target="_blank" class="social-icon instagram"><i class="ri-instagram-fill"></i></a>
+    <a href="https://t.me/MHMODSOFC" target="_blank" class="social-icon telegram"><i class="ri-telegram-fill"></i></a>
+    <a href="https://www.tiktok.com/@x_hasi1" target="_blank" class="social-icon tiktok"><i class="ri-tiktok-fill"></i></a>
   </section>
 
-  <!-- Custom Buttons Section -->
+  <!-- My All Websites Button -->
   <section class="px-4 py-10">
     <div class="text-center">
       <button onclick="toggleWebsites()" class="bg-blue-500 text-white font-semibold px-6 py-2 rounded-full shadow-lg hover:bg-blue-600 transition">My All Websites</button>
@@ -123,19 +110,31 @@
       <a href="https://example5.com" target="_blank" class="bg-white p-4 rounded-xl shadow text-center font-medium hover:bg-blue-100 transition">Website 5</a>
       <a href="https://example6.com" target="_blank" class="bg-white p-4 rounded-xl shadow text-center font-medium hover:bg-blue-100 transition">Website 6</a>
     </div>
-    <!-- Custom Buttons Section 2 -->
- <section class="px-4 py-10">
+  </section>
+
+  <!-- My WhatsApp Channels Button (FIXED with 4 Buttons) -->
+  <section class="px-4 py-10">
     <div class="text-center">
-      <button onclick="toggleWebsites()" class="bg-green-500 text-white font-semibold px-6 py-2 rounded-full shadow-lg hover:bg-blue-600 transition">My all Wa Chanels</button>
+      <button onclick="toggleWhatsapp()" class="bg-green-500 text-white font-semibold px-6 py-2 rounded-full shadow-lg hover:bg-green-600 transition">My All WA Channels</button>
     </div>
 
-    <div id="websiteBox" class="hidden mt-6 grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-xl mx-auto">
-      <a href=" " target="_blank" class="bg-white p-4 rounded-xl shadow text-center font-medium hover:bg-blue-100 transition">Hasi Modz</a>
-      <a href="https://hasi-new-sim-data.vercel.app/" target="_blank" class="bg-white p-4 rounded-xl shadow text-center font-medium hover:bg-blue-100 transition">Website 2</a>
-      <a href="https://mhmodsofc.online" target="_blank" class="bg-white p-4 rounded-xl shadow text-center font-medium hover:bg-blue-100 transition">Website 3</a>
-      <a href="https://example.edu" target="_blank" class="bg-white p-4 rounded-xl shadow text-center font-medium hover:bg-blue-100 transition">Website 4</a>
-      <a href="https://example5.com" target="_blank" class="bg-white p-4 rounded-xl shadow text-center font-medium hover:bg-blue-100 transition">Website 5</a>
-      <a href="https://example6.com" target="_blank" class="bg-white p-4 rounded-xl shadow text-center font-medium hover:bg-blue-100 transition">Website 6</a>
+    <div id="whatsappBox" class="hidden mt-6 grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-xl mx-auto">
+      <a href="https://whatsapp.com/channel/0029VasNvD33mFXwqrkFzZ3u" target="_blank"
+         class="bg-white p-4 rounded-xl shadow text-center font-medium hover:bg-green-100 transition">
+        Hasi Modz Channel
+      </a>
+      <a href="https://wa.me/923462054847" target="_blank"
+         class="bg-white p-4 rounded-xl shadow text-center font-medium hover:bg-green-100 transition">
+        Personal WhatsApp
+      </a>
+      <a href="https://whatsapp.com/channel/example1" target="_blank"
+         class="bg-white p-4 rounded-xl shadow text-center font-medium hover:bg-green-100 transition">
+        Channel 3
+      </a>
+      <a href="https://whatsapp.com/channel/example2" target="_blank"
+         class="bg-white p-4 rounded-xl shadow text-center font-medium hover:bg-green-100 transition">
+        Channel 4
+      </a>
     </div>
   </section>
 
@@ -145,21 +144,13 @@
       <div class="flex flex-col md:flex-row justify-between items-center">
         <div class="flex items-center mb-6 md:mb-0">
           <i class="fas fa-sim-card text-blue-400 text-2xl mr-3"></i>
-          <span class="text-xl font-bold"></span>
+          <span class="text-xl font-bold">Hasi SimData 2.0</span>
         </div>
         <div class="flex space-x-6 mb-6 md:mb-0">
-          <a href="https://whatsapp.com/channel/0029VasNvD33mFXwqrkFzZ3u" class="text-gray-400 hover:text-blue-400 transition text-xl">
-            <i class="fab fa-whatsapp"></i>
-          </a>
-          <a href="https://youtube.com/@MHMODSOFC" class="text-gray-400 hover:text-blue-400 transition text-xl">
-            <i class="fab fa-youtube"></i>
-          </a>
-          <a href="https://instagram.com/dark_hasi_47" class="text-gray-400 hover:text-blue-400 transition text-xl">
-            <i class="fab fa-instagram"></i>
-          </a>
-          <a href="https://github.com/chhaseeb47" class="text-gray-400 hover:text-blue-400 transition text-xl">
-            <i class="fab fa-github"></i>
-          </a>
+          <a href="https://whatsapp.com/channel/0029VasNvD33mFXwqrkFzZ3u" class="text-gray-400 hover:text-blue-400 transition text-xl"><i class="fab fa-whatsapp"></i></a>
+          <a href="https://youtube.com/@MHMODSOFC" class="text-gray-400 hover:text-blue-400 transition text-xl"><i class="fab fa-youtube"></i></a>
+          <a href="https://instagram.com/dark_hasi_47" class="text-gray-400 hover:text-blue-400 transition text-xl"><i class="fab fa-instagram"></i></a>
+          <a href="https://github.com/chhaseeb47" class="text-gray-400 hover:text-blue-400 transition text-xl"><i class="fab fa-github"></i></a>
         </div>
       </div>
       <div class="border-t border-dark-800 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
@@ -168,18 +159,18 @@
     </div>
   </footer>
 
+  <!-- JavaScript to toggle boxes -->
   <script>
     function toggleWebsites() {
-      const box = document.getElementById("websiteBox");
-      box.classList.toggle("hidden");
+      const websiteBox = document.getElementById("websiteBox");
+      websiteBox.classList.toggle("hidden");
     }
 
     function toggleWhatsapp() {
-      const box = document.getElementById("whatsappBox");
-      box.classList.toggle("hidden");
+      const whatsappBox = document.getElementById("whatsappBox");
+      whatsappBox.classList.toggle("hidden");
     }
   </script>
 
 </body>
 </html>
-
