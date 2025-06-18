@@ -64,46 +64,6 @@
       font-size: 30px;
       color: #007bff;
     }
-
-    .contact {
-      padding: 30px 20px;
-      background-color: #fff;
-    }
-
-    .contact-form {
-      max-width: 500px;
-      margin: auto;
-    }
-
-    input, textarea {
-      width: 100%;
-      padding: 10px;
-      margin-top: 10px;
-      border: 1px solid #ccc;
-      border-radius: 5px;
-    }
-
-    .send-btn {
-      background-color: #007bff;
-      color: white;
-      border: none;
-      margin-top: 10px;
-      cursor: pointer;
-    }
-
-    .footer {
-      background-color: #222;
-      color: white;
-      text-align: center;
-      padding: 15px;
-    }
-
-    .scroll-top {
-      color: white;
-      font-size: 20px;
-      display: inline-block;
-      margin-top: 10px;
-    }
   </style>
 </head>
 
@@ -149,71 +109,76 @@
     </a>
   </section>
 
-  <!-- MY WEBSITES -->
-  <section class="px-4 py-20">
-    <div class="bg-white rounded-2xl shadow-xl p-4 max-w-screen-md mx-auto w-full">
-      <h2 class="text-xl font-semibold mb-4 text-center">Website Previews</h2>
-      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-        <div class="border-2 border-gray-300 rounded-xl overflow-hidden aspect-video">
-          <iframe src="https://hasi-sim-data.vercel.app/" class="w-full h-full" frameborder="0"></iframe>
-        </div>
-        <div class="border-2 border-gray-300 rounded-xl overflow-hidden aspect-video">
-          <iframe src="https://hasi-new-sim-data.vercel.app/" class="w-full h-full" frameborder="0"></iframe>
-        </div>
-        <div class="border-2 border-gray-300 rounded-xl overflow-hidden aspect-video">
-          <iframe src="https://mhmodsofc.online" class="w-full h-full" frameborder="0"></iframe>
-        </div>
-        <div class="border-2 border-gray-300 rounded-xl overflow-hidden aspect-video">
-          <iframe src="https://example.edu" class="w-full h-full" frameborder="0"></iframe>
-        </div>
-      </div>
+  <!-- Custom Buttons Section -->
+  <section class="px-4 py-10">
+    <div class="text-center">
+      <button onclick="toggleWebsites()" class="bg-blue-500 text-white font-semibold px-6 py-2 rounded-full shadow-lg hover:bg-blue-600 transition">My All Websites</button>
+    </div>
+
+    <div id="websiteBox" class="hidden mt-6 grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-xl mx-auto">
+      <a href="https://hasi-sim-data.vercel.app/" target="_blank" class="bg-white p-4 rounded-xl shadow text-center font-medium hover:bg-blue-100 transition">Website 1</a>
+      <a href="https://hasi-new-sim-data.vercel.app/" target="_blank" class="bg-white p-4 rounded-xl shadow text-center font-medium hover:bg-blue-100 transition">Website 2</a>
+      <a href="https://mhmodsofc.online" target="_blank" class="bg-white p-4 rounded-xl shadow text-center font-medium hover:bg-blue-100 transition">Website 3</a>
+      <a href="https://example.edu" target="_blank" class="bg-white p-4 rounded-xl shadow text-center font-medium hover:bg-blue-100 transition">Website 4</a>
+      <a href="https://example5.com" target="_blank" class="bg-white p-4 rounded-xl shadow text-center font-medium hover:bg-blue-100 transition">Website 5</a>
+      <a href="https://example6.com" target="_blank" class="bg-white p-4 rounded-xl shadow text-center font-medium hover:bg-blue-100 transition">Website 6</a>
+    </div>
+ <section class="px-4 py-10">
+    <div class="text-center">
+      <button onclick="toggleWebsites()" class="bg-green-500 text-white font-semibold px-6 py-2 rounded-full shadow-lg hover:bg-blue-600 transition">My all Wa Chanels</button>
+    </div>
+
+    <div id="websiteBox" class="hidden mt-6 grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-xl mx-auto">
+      <a href="https://hasi-sim-data.vercel.app/" target="_blank" class="bg-white p-4 rounded-xl shadow text-center font-medium hover:bg-blue-100 transition">Website 1</a>
+      <a href="https://hasi-new-sim-data.vercel.app/" target="_blank" class="bg-white p-4 rounded-xl shadow text-center font-medium hover:bg-blue-100 transition">Website 2</a>
+      <a href="https://mhmodsofc.online" target="_blank" class="bg-white p-4 rounded-xl shadow text-center font-medium hover:bg-blue-100 transition">Website 3</a>
+      <a href="https://example.edu" target="_blank" class="bg-white p-4 rounded-xl shadow text-center font-medium hover:bg-blue-100 transition">Website 4</a>
+      <a href="https://example5.com" target="_blank" class="bg-white p-4 rounded-xl shadow text-center font-medium hover:bg-blue-100 transition">Website 5</a>
+      <a href="https://example6.com" target="_blank" class="bg-white p-4 rounded-xl shadow text-center font-medium hover:bg-blue-100 transition">Website 6</a>
     </div>
   </section>
 
-  <!-- Contact Section -->
-  <section class="contact" id="contact">
-    <div class="center-text">
-      <h2>Contact <span>me</span></h2>
-    </div>
-    <div class="contact-form">
-      <form action="">
-        <input type="text" placeholder="Your Name" required>
-        <input type="email" placeholder="Email Address..." required>
-        <textarea cols="30" rows="10" placeholder="Your Message Here." required></textarea>
-        <input type="submit" value="Submit" class="send-btn">
-      </form>
-    </div>
-  </section>
-
- <!-- Footer -->
+  <!-- Footer -->
   <footer class="bg-dark-900 py-12 border-t border-dark-800">
-      <div class="container mx-auto px-4">
-        <div class="flex flex-col md:flex-row justify-between items-center">
-          <div class="flex items-center mb-6 md:mb-0">
-            <i class="fas fa-sim-card text-blue-400 text-2xl mr-3"></i>
-            <span class="text-xl font-bold"Hasi SimData 2.0</span>
-          </div>
-          <div class="flex space-x-6 mb-6 md:mb-0">
-            <a href="https://whatsapp.com/channel/0029VasNvD33mFXwqrkFzZ3u" class="text-gray-400 hover:text-blue-400 transition text-xl">
-              <i class="fab fa-whatsapp"></i>
-            </a>
-            <a href="https://youtube.com/@MHMODSOFC" class="text-gray-400 hover:text-blue-400 transition text-xl">
-              <i class="fab fa-youtube"></i>
-            </a>
-            <a href="https://instagram.com/dark_hasi_47" class="text-gray-400 hover:text-blue-400 transition text-xl">
-              <i class="fab fa-instagram"></i>
-            </a>
-            <a href="https://github.com/chhaseeb47" class="text-gray-400 hover:text-blue-400 transition text-xl">
-              <i class="fab fa-github"></i>
-            </a>
-          </div>
+    <div class="container mx-auto px-4">
+      <div class="flex flex-col md:flex-row justify-between items-center">
+        <div class="flex items-center mb-6 md:mb-0">
+          <i class="fas fa-sim-card text-blue-400 text-2xl mr-3"></i>
+          <span class="text-xl font-bold"></span>
         </div>
-        <div class="border-t border-dark-800 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
-          <p class="text-gray-500 mb-4 md:mb-0 text-center md:text-left"></p>
-          <p class="text-gray-500 text-center md:text-right">Designed and Developed by <a href="https://wa.me/message/SWLYKAURL662A1" target="_blank" class="text-blue-400 hover:underline">Haseeb Rashid</a></p>
+        <div class="flex space-x-6 mb-6 md:mb-0">
+          <a href="https://whatsapp.com/channel/0029VasNvD33mFXwqrkFzZ3u" class="text-gray-400 hover:text-blue-400 transition text-xl">
+            <i class="fab fa-whatsapp"></i>
+          </a>
+          <a href="https://youtube.com/@MHMODSOFC" class="text-gray-400 hover:text-blue-400 transition text-xl">
+            <i class="fab fa-youtube"></i>
+          </a>
+          <a href="https://instagram.com/dark_hasi_47" class="text-gray-400 hover:text-blue-400 transition text-xl">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="https://github.com/chhaseeb47" class="text-gray-400 hover:text-blue-400 transition text-xl">
+            <i class="fab fa-github"></i>
+          </a>
         </div>
       </div>
+      <div class="border-t border-dark-800 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
+        <p class="text-gray-500 text-center md:text-right">Designed and Developed by <a href="https://wa.me/message/SWLYKAURL662A1" target="_blank" class="text-blue-400 hover:underline">Haseeb Rashid</a></p>
+      </div>
+    </div>
   </footer>
+
+  <script>
+    function toggleWebsites() {
+      const box = document.getElementById("websiteBox");
+      box.classList.toggle("hidden");
+    }
+
+    function toggleWhatsapp() {
+      const box = document.getElementById("whatsappBox");
+      box.classList.toggle("hidden");
+    }
+  </script>
 
 </body>
 </html>
+
