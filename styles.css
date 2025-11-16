@@ -133,3 +133,96 @@ input, textarea {
   display: inline-block;
   margin-top: 10px;
 }
+
+
+
+
+
+
+
+
+
+
+/* ---------- GENERAL ---------- */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    transition: 0.4s ease;
+}
+
+/* ---------- THEMES ---------- */
+body.light-theme {
+    background: #ffffff;
+    color: #111;
+}
+
+body.dark-theme {
+    background: #111;
+    color: #f1f1f1;
+}
+
+body.blue-theme {
+    background: #003b80;
+    color: white;
+}
+
+body.red-theme {
+    background: #8b0000;
+    color: white;
+}
+
+body.green-theme {
+    background: #0b6623;
+    color: white;
+}
+
+body.purple-theme {
+    background: #4b0082;
+    color: white;
+}
+
+/* ---------- SUN BUTTON ---------- */
+.theme-btn {
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    background: gold;
+    border: none;
+    padding: 12px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 0 0 15px rgba(255, 215, 0, 0.7);
+    cursor: pointer;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+}
+
+.theme-btn:hover {
+    transform: scale(1.1) rotate(15deg);
+}
+
+/* ---------- THEME MENU ---------- */
+.theme-options {
+    position: fixed;
+    top: 80px;
+    right: 15px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(6px);
+    padding: 10px;
+    border-radius: 10px;
+    display: none;
+}
+
+.theme-color {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin: 5px;
+    cursor: pointer;
+    display: inline-block;
+}
